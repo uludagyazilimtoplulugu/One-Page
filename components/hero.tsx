@@ -33,7 +33,7 @@ export function Hero() {
   const [showRoles, setShowRoles] = useState(false)
 
   return (
-    <section className="relative flex min-h-screen flex-col items-center justify-center px-6 pt-20 text-center">
+    <section id="apply" className="relative flex min-h-screen flex-col items-center justify-center px-6 pt-20 text-center">
       {/* Glow effect */}
       <div
         className="pointer-events-none absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[500px] w-[500px] rounded-full opacity-20 blur-[120px]"
