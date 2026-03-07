@@ -43,6 +43,13 @@ export function Navbar() {
           </button>
 
           <Link
+            href="#faq"
+            className="hidden rounded-full border border-border px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:border-accent/50 hover:text-foreground md:inline-flex"
+          >
+            {t("faqTitle")}
+          </Link>
+
+          <Link
             href="#apply"
             className="rounded-full bg-foreground px-5 py-2 text-sm font-medium text-background transition-opacity hover:opacity-90"
           >
